@@ -8,9 +8,11 @@ Demonstrates:
   loggers
   Caching
   
-Running Examples:
+
 
 Uses MySQL DB for QA profile
+
+Running the app:
 
 Download the zip or clone the Git repository.
 Unzip the zip file (if you downloaded one)
