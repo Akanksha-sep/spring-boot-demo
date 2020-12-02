@@ -3,9 +3,13 @@
 Basic spring boot operations to create and update employees
 
 Demonstrates:
+
   JPA
+  
   Profiles
+  
   loggers
+  
   Caching
   
 
