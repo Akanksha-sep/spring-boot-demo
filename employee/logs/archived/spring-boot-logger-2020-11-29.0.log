@@ -1,0 +1,677 @@
+2020-11-29 17:47:34,295 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 13392 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 17:47:34,300 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 17:47:34,386 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 17:47:34,410 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 17:47:35,439 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 17:47:35,442 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 17:47:35,483 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 17:47:35,484 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 0 JDBC repository interfaces.
+2020-11-29 17:47:35,500 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 17:47:35,502 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 17:47:35,555 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2020-11-29 17:47:36,831 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 17:47:36,848 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 17:47:36,849 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 17:47:36,850 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 17:47:37,153 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 17:47:37,153 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2740 ms
+2020-11-29 17:47:37,519 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 17:47:37,602 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 17:47:37,672 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 17:47:37,748 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 17:47:38,068 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 17:47:38,402 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 17:47:39,295 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 17:47:39,381 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 17:47:39,528 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 17:47:39,658 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 17:47:39,663 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 17:47:40,966 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 17:47:40,978 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 17:47:41,193 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 17:47:41,205 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 8.31 seconds (JVM running for 10.77)
+2020-11-29 18:09:47,186 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 36420 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 18:09:47,191 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 18:09:47,280 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 18:09:47,281 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 18:09:49,240 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:09:49,254 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 18:09:49,342 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 18:09:49,348 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 76 ms. Found 0 JDBC repository interfaces.
+2020-11-29 18:09:49,377 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:09:49,381 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 18:09:49,484 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2020-11-29 18:09:51,357 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 18:09:51,373 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:09:51,374 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 18:09:51,374 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 18:09:51,559 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 18:09:51,559 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4276 ms
+2020-11-29 18:09:51,813 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:09:51,882 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 18:09:51,969 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 18:09:52,202 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 18:09:52,317 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 18:09:52,398 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 18:09:53,103 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 18:09:53,168 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 18:09:53,317 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:09:53,435 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 18:09:53,536 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 18:09:54,353 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 18:09:54,367 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 18:09:54,616 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 18:09:54,633 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 8.619 seconds (JVM running for 11.391)
+2020-11-29 18:10:04,008 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 18:10:04,010 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 18:10:04,016 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 5 ms
+2020-11-29 18:13:34,952 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 36804 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 18:13:34,955 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 18:13:35,009 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 18:13:35,010 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 18:13:36,451 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:13:36,454 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 18:13:36,500 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 18:13:36,501 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 0 JDBC repository interfaces.
+2020-11-29 18:13:36,525 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:13:36,527 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 18:13:36,569 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2020-11-29 18:13:37,747 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 18:13:37,768 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:13:37,770 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 18:13:37,771 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 18:13:38,113 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 18:13:38,115 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3103 ms
+2020-11-29 18:13:38,631 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:13:38,790 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 18:13:39,023 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 18:13:39,518 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 18:13:39,762 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 18:13:39,993 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 18:13:41,568 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 18:13:41,712 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 18:13:42,147 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:13:42,262 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 18:13:43,182 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 18:13:44,071 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 18:13:44,091 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 18:13:44,472 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 18:13:44,489 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 10.344 seconds (JVM running for 12.059)
+2020-11-29 18:13:54,167 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 18:13:54,168 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 18:13:54,170 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2020-11-29 18:26:26,484 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 31164 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 18:26:26,487 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 18:26:26,543 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 18:26:26,543 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 18:26:27,686 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:26:27,688 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 18:26:27,725 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 18:26:27,727 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2020-11-29 18:26:27,742 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:26:27,744 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 18:26:27,785 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2020-11-29 18:26:28,809 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 18:26:28,822 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:26:28,822 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 18:26:28,823 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 18:26:29,011 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 18:26:29,013 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2467 ms
+2020-11-29 18:26:29,224 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:26:29,280 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 18:26:29,354 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 18:26:29,544 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 18:26:29,600 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 18:26:39,714 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 18:26:40,958 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 18:26:41,106 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 18:26:41,397 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:26:41,573 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 18:26:42,159 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 18:26:42,366 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 18:26:42,367 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 18:26:42,373 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 4 ms
+2020-11-29 18:26:43,492 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 18:26:43,517 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 18:26:43,972 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 18:26:44,010 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 18.567 seconds (JVM running for 20.166)
+2020-11-29 18:42:55,353 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 32100 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 18:42:55,360 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 18:42:55,455 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 18:42:55,457 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 18:42:57,389 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:42:57,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 18:42:57,448 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 18:42:57,449 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 0 JDBC repository interfaces.
+2020-11-29 18:42:57,487 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 18:42:57,490 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 18:42:57,568 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2020-11-29 18:42:59,401 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 18:42:59,422 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:42:59,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 18:42:59,424 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 18:42:59,638 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 18:42:59,639 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4178 ms
+2020-11-29 18:42:59,899 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 18:42:59,971 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 18:43:00,069 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 18:43:00,309 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 18:43:00,423 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 18:43:00,497 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 18:43:01,150 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 18:43:01,209 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 18:43:01,324 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 18:43:01,418 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 18:43:01,780 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 18:43:02,310 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 18:43:02,324 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 18:43:02,559 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 18:43:02,569 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 8.624 seconds (JVM running for 14.874)
+2020-11-29 18:43:20,777 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 18:43:20,778 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 18:43:20,780 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2020-11-29 19:48:52,883 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 15732 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 19:48:52,894 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 19:48:52,993 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 19:48:52,993 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 19:48:55,053 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:48:55,061 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 19:48:55,119 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 19:48:55,120 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 0 JDBC repository interfaces.
+2020-11-29 19:48:55,139 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:48:55,141 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 19:48:55,191 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2020-11-29 19:48:56,360 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 19:48:56,377 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:48:56,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 19:48:56,378 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 19:48:56,603 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 19:48:56,604 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3609 ms
+2020-11-29 19:48:56,965 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:48:57,041 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 19:48:57,132 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 19:48:57,397 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 19:48:57,405 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'inMemorySwaggerResourcesProvider' defined in URL [jar:file:/C:/Users/Akanksha.Singh1/.m2/repository/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0.jar!/springfox/documentation/swagger/web/InMemorySwaggerResourcesProvider.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.swagger.web.InMemorySwaggerResourcesProvider]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'api' defined in class path resource [com/employee/config/SwaggerConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'api' threw exception; nested exception is java.lang.NoSuchMethodError: 'com.google.common.base.Predicate springfox.documentation.builders.RequestHandlerSelectors.basePackage(java.lang.String)'
+2020-11-29 19:48:57,407 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 19:48:57,546 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 19:48:58,009 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 19:48:58,055 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 19:48:59,017 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 19:48:59,027 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 19:48:59,033 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:48:59,034 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-11-29 19:48:59,058 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-11-29 19:48:59,060 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-11-29 19:48:59,072 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-29 19:48:59,094 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.employee.config.SwaggerConfig.api(SwaggerConfig.java:21)
+
+The following method did not exist:
+
+    'com.google.common.base.Predicate springfox.documentation.builders.RequestHandlerSelectors.basePackage(java.lang.String)'
+
+The method's class, springfox.documentation.builders.RequestHandlerSelectors, is available from the following locations:
+
+    jar:file:/C:/Users/Akanksha.Singh1/.m2/repository/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar!/springfox/documentation/builders/RequestHandlerSelectors.class
+
+The class hierarchy was loaded from the following locations:
+
+    springfox.documentation.builders.RequestHandlerSelectors: file:/C:/Users/Akanksha.Singh1/.m2/repository/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of springfox.documentation.builders.RequestHandlerSelectors
+
+2020-11-29 19:51:02,046 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 31784 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 19:51:02,050 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 19:51:02,120 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 19:51:02,120 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 19:51:03,522 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:51:03,525 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 19:51:03,568 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 19:51:03,570 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2020-11-29 19:51:03,589 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:51:03,592 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 19:51:03,637 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2020-11-29 19:51:04,781 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 19:51:04,797 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:51:04,798 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 19:51:04,798 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 19:51:05,003 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 19:51:05,004 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2880 ms
+2020-11-29 19:51:05,275 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:51:05,339 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 19:51:05,423 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 19:51:05,624 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'inMemorySwaggerResourcesProvider' defined in URL [jar:file:/C:/Users/Akanksha.Singh1/.m2/repository/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0.jar!/springfox/documentation/swagger/web/InMemorySwaggerResourcesProvider.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.swagger.web.InMemorySwaggerResourcesProvider]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'api' defined in class path resource [com/employee/config/SwaggerConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'api' threw exception; nested exception is java.lang.NoSuchMethodError: 'com.google.common.base.Predicate springfox.documentation.builders.RequestHandlerSelectors.basePackage(java.lang.String)'
+2020-11-29 19:51:05,625 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 19:51:05,630 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 19:51:05,768 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 19:51:06,220 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 19:51:06,263 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 19:51:07,386 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 19:51:07,401 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 19:51:07,406 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:51:07,407 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-11-29 19:51:07,432 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-11-29 19:51:07,435 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-11-29 19:51:07,452 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-29 19:51:07,482 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    com.employee.config.SwaggerConfig.api(SwaggerConfig.java:21)
+
+The following method did not exist:
+
+    'com.google.common.base.Predicate springfox.documentation.builders.RequestHandlerSelectors.basePackage(java.lang.String)'
+
+The method's class, springfox.documentation.builders.RequestHandlerSelectors, is available from the following locations:
+
+    jar:file:/C:/Users/Akanksha.Singh1/.m2/repository/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar!/springfox/documentation/builders/RequestHandlerSelectors.class
+
+The class hierarchy was loaded from the following locations:
+
+    springfox.documentation.builders.RequestHandlerSelectors: file:/C:/Users/Akanksha.Singh1/.m2/repository/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of springfox.documentation.builders.RequestHandlerSelectors
+
+2020-11-29 19:52:39,844 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 32336 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 19:52:39,847 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 19:52:39,912 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 19:52:39,913 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 19:52:41,463 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:52:41,469 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 19:52:41,549 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 19:52:41,551 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65 ms. Found 0 JDBC repository interfaces.
+2020-11-29 19:52:41,573 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:52:41,577 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 19:52:41,645 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2020-11-29 19:52:42,733 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 19:52:42,746 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:52:42,747 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 19:52:42,748 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 19:52:42,906 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 19:52:42,906 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2992 ms
+2020-11-29 19:52:43,140 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:52:43,192 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 19:52:43,271 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 19:52:43,465 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 19:52:43,589 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 19:52:43,626 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 19:52:44,149 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 19:52:44,192 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 19:52:44,328 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:52:44,365 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 19:52:44,423 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 19:52:45,095 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 19:52:45,106 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 19:52:45,295 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 19:52:45,306 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 6.299 seconds (JVM running for 8.378)
+2020-11-29 19:54:26,291 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 34464 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 19:54:26,294 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 19:54:26,357 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 19:54:26,357 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 19:54:28,171 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:54:28,173 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 19:54:28,219 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 19:54:28,221 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 0 JDBC repository interfaces.
+2020-11-29 19:54:28,238 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:54:28,240 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 19:54:28,280 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2020-11-29 19:54:29,325 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 19:54:29,338 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:54:29,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 19:54:29,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 19:54:29,505 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 19:54:29,505 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3146 ms
+2020-11-29 19:54:29,757 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:54:29,819 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 19:54:29,903 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 19:54:30,115 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 19:54:30,287 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 19:54:30,302 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 19:54:30,884 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 19:54:30,932 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 19:54:31,173 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:54:31,209 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 19:54:31,517 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 19:54:31,976 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 19:54:31,985 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 19:54:32,191 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 19:54:32,201 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 6.741 seconds (JVM running for 8.393)
+2020-11-29 19:54:49,203 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 19:54:49,203 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 19:54:49,205 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2020-11-29 19:58:26,461 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 24460 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 19:58:26,466 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 19:58:26,531 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 19:58:26,531 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 19:58:28,056 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:58:28,058 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 19:58:28,101 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 19:58:28,103 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 0 JDBC repository interfaces.
+2020-11-29 19:58:28,119 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 19:58:28,121 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 19:58:28,159 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2020-11-29 19:58:29,323 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 19:58:29,334 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:58:29,335 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 19:58:29,335 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 19:58:29,503 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 19:58:29,503 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2970 ms
+2020-11-29 19:58:29,724 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 19:58:29,776 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 19:58:29,853 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 19:58:30,036 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 19:58:30,133 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 19:58:30,187 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 19:58:30,707 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 19:58:30,775 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 19:58:30,825 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 19:58:30,900 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 19:58:31,196 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 19:58:31,727 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 19:58:31,737 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 19:58:31,919 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 19:58:31,928 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 6.356 seconds (JVM running for 8.039)
+2020-11-29 19:58:51,152 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 19:58:51,153 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-10] Initializing Servlet 'dispatcherServlet'
+2020-11-29 19:58:51,154 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-10] Completed initialization in 1 ms
+2020-11-29 20:04:36,019 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 19100 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 20:04:36,022 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 20:04:36,082 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 20:04:36,083 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 20:04:37,464 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:04:37,467 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 20:04:37,526 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 20:04:37,527 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 0 JDBC repository interfaces.
+2020-11-29 20:04:37,545 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:04:37,548 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 20:04:37,601 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2020-11-29 20:04:39,190 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 20:04:39,205 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:04:39,205 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 20:04:39,206 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 20:04:39,367 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 20:04:39,367 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3282 ms
+2020-11-29 20:04:39,597 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 20:04:39,653 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 20:04:39,721 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 20:04:39,900 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 20:04:40,021 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 20:04:40,053 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 20:04:40,561 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 20:04:40,604 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 20:04:40,798 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:04:40,838 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 20:04:41,119 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 20:04:41,548 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 20:04:41,558 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 20:04:41,747 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 20:04:41,757 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 6.562 seconds (JVM running for 8.282)
+2020-11-29 20:04:57,438 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 20:04:57,438 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 20:04:57,440 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2020-11-29 20:04:57,471 INFO com.employee.service.EmployeeService [http-nio-8090-exec-1] START employee fetch ::::
+2020-11-29 20:05:00,875 INFO com.employee.service.EmployeeService [http-nio-8090-exec-1] END employee fetch ::::
+2020-11-29 20:05:41,666 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 31832 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 20:05:41,670 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 20:05:41,741 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 20:05:41,742 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 20:05:43,063 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:05:43,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 20:05:43,107 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 20:05:43,108 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2020-11-29 20:05:43,123 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:05:43,125 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 20:05:43,166 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2020-11-29 20:05:44,165 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 20:05:44,178 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:05:44,178 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 20:05:44,179 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 20:05:44,339 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 20:05:44,340 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2596 ms
+2020-11-29 20:05:44,583 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 20:05:44,651 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 20:05:44,762 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 20:05:45,175 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 20:05:45,707 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 20:05:45,976 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 20:05:47,991 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 20:05:48,125 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 20:05:48,363 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:05:48,560 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 20:05:49,167 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 20:05:50,123 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 20:05:50,142 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 20:05:50,530 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 20:05:50,553 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 9.757 seconds (JVM running for 11.894)
+2020-11-29 20:05:56,838 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 20:05:56,839 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-3] Initializing Servlet 'dispatcherServlet'
+2020-11-29 20:05:56,841 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-3] Completed initialization in 2 ms
+2020-11-29 20:05:56,888 INFO com.employee.service.EmployeeService [http-nio-8090-exec-3] START employee fetch ::::
+2020-11-29 20:05:57,311 INFO com.employee.service.EmployeeService [http-nio-8090-exec-3] END employee fetch ::::
+2020-11-29 20:06:28,677 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 27588 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 20:06:28,680 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 20:06:28,757 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 20:06:28,758 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 20:06:30,277 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:06:30,280 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 20:06:30,323 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 20:06:30,324 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2020-11-29 20:06:30,338 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:06:30,341 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 20:06:30,389 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2020-11-29 20:06:31,403 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 20:06:31,417 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:06:31,417 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 20:06:31,418 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 20:06:31,591 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 20:06:31,591 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2831 ms
+2020-11-29 20:06:31,854 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 20:06:31,911 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 20:06:31,997 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 20:06:32,218 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 20:06:32,383 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 20:06:32,419 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 20:06:33,053 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 20:06:33,132 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 20:06:33,467 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:06:33,558 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 20:06:34,135 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 20:06:34,762 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 20:06:34,773 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 20:06:34,953 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 20:06:34,964 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 7.226 seconds (JVM running for 9.291)
+2020-11-29 20:06:44,052 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 20:06:44,053 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-11-29 20:06:44,055 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-2] Completed initialization in 2 ms
+2020-11-29 20:06:50,086 INFO com.employee.service.EmployeeService [http-nio-8090-exec-3] START employee fetch ::::
+2020-11-29 20:06:50,408 INFO com.employee.service.EmployeeService [http-nio-8090-exec-3] END employee fetch ::::
+2020-11-29 20:07:36,024 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 15476 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 20:07:36,030 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 20:07:36,130 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 20:07:36,130 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 20:07:37,875 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:07:37,879 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 20:07:37,930 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 20:07:37,932 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 0 JDBC repository interfaces.
+2020-11-29 20:07:37,951 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:07:37,953 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 20:07:38,003 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2020-11-29 20:07:39,296 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 20:07:39,312 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:07:39,313 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 20:07:39,313 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 20:07:39,487 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 20:07:39,487 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3354 ms
+2020-11-29 20:07:39,759 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 20:07:39,828 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 20:07:39,921 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 20:07:40,132 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 20:07:40,229 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 20:07:40,301 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 20:07:40,884 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 20:07:40,939 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 20:07:41,035 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:07:41,126 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 20:07:41,467 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 20:07:42,181 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 20:07:42,193 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 20:07:42,425 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 20:07:42,437 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 7.389 seconds (JVM running for 9.475)
+2020-11-29 20:08:05,780 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 20:08:05,780 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-11-29 20:08:05,783 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-2] Completed initialization in 2 ms
+2020-11-29 20:08:12,792 INFO com.employee.service.EmployeeService [http-nio-8090-exec-3] START employee fetch ::::
+2020-11-29 20:08:12,965 INFO com.employee.service.EmployeeService [http-nio-8090-exec-3] END employee fetch ::::
+2020-11-29 20:08:19,191 INFO com.employee.service.EmployeeService [http-nio-8090-exec-6] START employee fetch ::::
+2020-11-29 20:08:19,198 INFO com.employee.service.EmployeeService [http-nio-8090-exec-6] END employee fetch ::::
+2020-11-29 20:08:27,273 INFO com.employee.service.EmployeeService [http-nio-8090-exec-7] START employee fetch ::::
+2020-11-29 20:08:27,281 INFO com.employee.service.EmployeeService [http-nio-8090-exec-7] END employee fetch ::::
+2020-11-29 20:09:05,637 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 24356 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 20:09:05,641 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 20:09:05,715 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 20:09:05,715 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 20:09:07,488 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:09:07,491 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 20:09:07,563 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 20:09:07,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65 ms. Found 0 JDBC repository interfaces.
+2020-11-29 20:09:07,581 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:09:07,584 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 20:09:07,634 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2020-11-29 20:09:08,888 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 20:09:08,903 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:09:08,903 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 20:09:08,904 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 20:09:09,106 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 20:09:09,107 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3389 ms
+2020-11-29 20:09:09,432 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 20:09:09,533 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 20:09:09,653 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 20:09:09,967 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 20:09:10,135 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 20:09:10,188 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 20:09:10,855 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 20:09:10,920 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 20:09:11,141 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:09:11,186 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 20:09:11,534 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 20:09:12,311 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 20:09:12,331 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 20:09:12,604 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 20:09:12,615 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 7.881 seconds (JVM running for 10.083)
+2020-11-29 20:09:22,303 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 20:09:22,304 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 20:09:22,306 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2020-11-29 20:09:28,806 INFO com.employee.service.EmployeeService [http-nio-8090-exec-2] START employee fetch ::::
+2020-11-29 20:09:29,006 INFO com.employee.service.EmployeeService [http-nio-8090-exec-2] END employee fetch ::::
+2020-11-29 20:11:19,019 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 5944 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 20:11:19,024 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 20:11:19,091 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 20:11:19,091 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 20:11:20,419 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:11:20,422 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 20:11:20,463 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 20:11:20,464 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
+2020-11-29 20:11:20,478 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:11:20,480 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 20:11:20,528 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2020-11-29 20:11:21,705 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 20:11:21,718 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:11:21,718 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 20:11:21,719 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 20:11:21,920 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 20:11:21,921 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2828 ms
+2020-11-29 20:11:22,165 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 20:11:22,227 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 20:11:22,308 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 20:11:22,530 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 20:11:22,682 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 20:11:22,702 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 20:11:23,297 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 20:11:23,346 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 20:11:23,601 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:11:23,635 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 20:11:23,965 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 20:11:24,592 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 20:11:24,602 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 20:11:24,831 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 20:11:24,843 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 6.836 seconds (JVM running for 8.565)
+2020-11-29 20:11:37,215 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 20:11:37,215 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-29 20:11:37,217 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2020-11-29 20:11:42,643 INFO com.employee.controller.EmployeeController [http-nio-8090-exec-4] START employee fetch ::::
+2020-11-29 20:11:42,650 INFO com.employee.service.EmployeeService [http-nio-8090-exec-4] START employee fetch ::::
+2020-11-29 20:11:42,845 INFO com.employee.service.EmployeeService [http-nio-8090-exec-4] END employee fetch ::::
+2020-11-29 20:11:48,865 INFO com.employee.controller.EmployeeController [http-nio-8090-exec-5] START employee fetch ::::
+2020-11-29 20:11:51,669 INFO com.employee.controller.EmployeeController [http-nio-8090-exec-8] START employee fetch ::::
+2020-11-29 20:11:54,462 INFO com.employee.controller.EmployeeController [http-nio-8090-exec-9] START employee fetch ::::
+2020-11-29 20:12:36,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting EmployeeApplication using Java 11.0.6 on IN2056517W1 with PID 35024 (C:\Training\workspace\employee\target\classes started by Akanksha.Singh1 in C:\Training\workspace\employee)
+2020-11-29 20:12:36,030 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: qa
+2020-11-29 20:12:36,111 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 7:13]
+2020-11-29 20:12:36,112 WARN org.springframework.boot.logging.DeferredLog [main] Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 4:13]
+2020-11-29 20:12:38,896 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:12:38,901 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-29 20:12:38,991 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [main] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.employee.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-11-29 20:12:38,993 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 0 JDBC repository interfaces.
+2020-11-29 20:12:39,025 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-29 20:12:39,028 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-29 20:12:39,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2020-11-29 20:12:40,758 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2020-11-29 20:12:40,775 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:12:40,776 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-29 20:12:40,777 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-29 20:12:41,003 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-29 20:12:41,003 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4888 ms
+2020-11-29 20:12:41,317 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 20:12:41,392 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-29 20:12:41,522 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-29 20:12:41,818 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-29 20:12:41,942 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-29 20:12:42,052 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-29 20:12:42,801 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-29 20:12:42,869 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-29 20:12:43,015 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2020-11-29 20:12:43,156 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2020-11-29 20:12:43,713 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-11-29 20:12:44,564 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 20:12:44,579 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-29 20:12:44,872 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-11-29 20:12:44,886 INFO org.springframework.boot.StartupInfoLogger [main] Started EmployeeApplication in 10.041 seconds (JVM running for 13.344)
+2020-11-29 20:12:50,859 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 20:12:50,860 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-10] Initializing Servlet 'dispatcherServlet'
+2020-11-29 20:12:50,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-10] Completed initialization in 1 ms
+2020-11-29 20:12:58,862 INFO com.employee.controller.EmployeeController [http-nio-8090-exec-7] START employee fetch ::::
+2020-11-29 20:12:58,863 INFO com.employee.service.EmployeeService [http-nio-8090-exec-7] START employee fetch ::::
+2020-11-29 20:12:59,039 INFO com.employee.service.EmployeeService [http-nio-8090-exec-7] END employee fetch ::::
+2020-11-29 20:13:02,685 INFO com.employee.controller.EmployeeController [http-nio-8090-exec-6] START employee fetch ::::
+2020-11-29 20:13:02,685 INFO com.employee.service.EmployeeService [http-nio-8090-exec-6] START employee fetch ::::
+2020-11-29 20:13:02,693 INFO com.employee.service.EmployeeService [http-nio-8090-exec-6] END employee fetch ::::
+2020-11-29 20:13:06,433 INFO com.employee.controller.EmployeeController [http-nio-8090-exec-9] START employee fetch ::::
+2020-11-29 20:13:06,434 INFO com.employee.service.EmployeeService [http-nio-8090-exec-9] START employee fetch ::::
+2020-11-29 20:13:06,442 INFO com.employee.service.EmployeeService [http-nio-8090-exec-9] END employee fetch ::::
+2020-11-29 22:11:33,408 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h57m20s526ms160µs400ns).
